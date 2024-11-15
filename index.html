@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <title>Festa na Paróquia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="./cenariopasso0.png" alt="">
+            <p>Você é um(a) confeiteiro(a) que está passando por um período complicado em seus negócios. Por sorte te convidaram para uma festa em uma paróquia para vender seus maravilhosos bolos hoje a tarde. O que você vai fazer?</p>
+            <button type="button" class="btn-proximo" data-proximo="1">Ir para a paróquia imediatamente com seu carro e suas coisas </button>
+            <button type="button" class="btn-proximo" data-proximo="2">Descansar primeiro e ir mais tarde </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="./barraca 2.png" alt="">
+            <img src="./barraca2.png" alt="">
+            <p>Você chegou cedo à festa e viu muitas barracas que ainda não foram ocupadas. Qual delas você prefere ocupar?</p>
+            <button type="button" class="btn-proximo" data-proximo="3">Barraca da entrada</button>
+            <button type="button" class="btn-proximo" data-proximo="4">Última barraca que fica no fim da festa</button>
+        </div> 
+        <div class="passo" id="passo-2">
+            <img src="./barraca2.png" alt="">
+            <p>Após algum tempo descansando você se arruma e vai a festa. Ao chegar lá você percebe que todas as barracas foram pegas e que restou apenas uma barraca que fica no fim da festa. O que você irá fazer?</p>
+            <button type="button" class="btn-proximo" data-proximo="4">Arrumar a barraca</button>
+            <button type="button" class="btn-proximo" data-proximo="6">Ir embora</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="./homem-rico.png" alt="">
+            <p>A festa começa e muitas pessoas estão comprando suas mercadorias. Após um longo tempo, a festa acaba e todos vão embora. Os comerciantes das outras barracas começam a organizar suas coisas e ir embora tambem. O que você irá fazer?            </p>
+            <button type="button" class="btn-proximo" data-proximo="5">Ir embora</button>
+            <button type="button" class="btn-proximo" data-proximo="7">ir à missa que está ocorrendo</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="./homem-pobre.png" alt="">
+            <p>A festa começa e poucas pessoas estão comprando suas mercadorias. A celebração acaba e todos estão indo embora. Oque você irá fazer?</p>
+            <button type="button" class="btn-proximo" data-proximo="5"> ir embora </button>
+            <button type="button" class="btn-proximo" data-proximo="7">ir à missa que está ocorrendo</button>
+        </div>         
+        <div class="passo" id="passo-5">
+            <p> Você foi embora </p>
+            <img src="./indo.embora.png" alt="">
+        </div>    
+        <div class="passo" id="passo-6">
+            <p> Você foi embora e não vendeu nada </p>
+            <img src="./triste.png" alt="">
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="./igreja.png" alt="">
+            <p> Você foi a missa e ouviu a seguinte passagem da escritura:
+         </p>
+         <p> Uma grande multidão ia acompanhando Jesus; este, voltando-se para ela, disse: "Se alguém vem a mim e ama seu pai, sua mãe, sua mulher, seus filhos, seus irmãos e irmãs e até sua própria vida mais do que a mim, não pode ser meu discípulo. E aquele que não carrega sua cruz e não me segue não pode ser meu discípulo. Qual de vocês, se quiser construir uma torre, primeiro não se assenta e calcula o preço, para ver se tem dinheiro suficiente para completá-la? Pois, se lançar o alicerce e não for capaz de terminá-la, todos os que a virem rirão dele, dizendo: 'Este homem começou a construir e não foi capaz de terminar'.Ou, qual é o rei que, pretendendo sair à guerra contra outro rei, primeiro não se assenta e pensa se com dez mil homens é capaz de enfrentar aquele que vem contra ele com vinte mil? Se não for capaz, enviará uma delegação, enquanto o outro ainda está longe, e pedirá um acordo de paz. Da mesma forma, qualquer de vocês que não renunciar a tudo o que possui não pode ser meu discípulo.”
+        </p>
+        </div>
+
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
